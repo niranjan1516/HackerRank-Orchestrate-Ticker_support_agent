@@ -30,4 +30,43 @@ Thumbs.db
 data/index/
 data/embeddings/
 *.sqlite
+*.sqlite3
 *.db
+
+# database files and vector store chunks
+code/db/
+db/
+.chroma/
+
+# generated output files
+support_tickets/output.csv
+output.csv
+
+# session and log files
+log.txt
+*.log
+hackerrank_orchestrate/
+
+# temporary and backup files
+New folder/
+*.zip
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# jupyter notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# python specific
+*.egg-info/
+.coverage
+.env.local
+site-packages/
+
+# IDE and editor
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
